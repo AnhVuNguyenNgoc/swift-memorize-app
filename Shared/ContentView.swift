@@ -40,7 +40,7 @@ struct ContentView: View {
     var viewModel: EmojiMemoryGame;
     
     
-    var emojis: Array<String> = ["😈", "👁", "💪🏾","💄", "👱🏽‍♀️", "🫁", "🧠"] // need unique identifier, to know exactly object when C.R.U.D
+    var emojis: Array<String> = [ "👁", "💪🏾","💄", "👱🏽‍♀️", "🫁", "🧠"] // need unique identifier, to know exactly object when C.R.U.D
     @State var emojiCount = 6
     
     
